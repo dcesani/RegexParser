@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'eclipse'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    
+    //jgraphx
+    compile group: 'org.tinyjee.jgraphx', name: 'jgraphx', version: '3.4.1.3'
+}
